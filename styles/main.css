@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+.my-nav{
+    background-color: #3A3B48  !important; 
+}
+.scrolled{
+    background-color: #fff !important;
+}
+.landing{
+    background-color: #3A3B48  !important; 
+    color: #f7f7f7;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.my-btn{
+    background-color: #3A3B48  !important; 
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    animation-delay: 0.8s;
+    color: #f7f7f7;
+    border: 2px solid orange;
+}
+.my-btn:hover{
+    background-color: orange  !important; 
+    
+    color: #f7f7f7;
+    text-decoration: none;
+}
+@media (min-width: 1200px) {
+    .my-d{
+    position: relative;
+    transform: translateX(-150px);
+}
+}
+.about-h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: green;
+  margin: 4px 10px;
+}
+.about-btn{
+    background-color: green  !important; 
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 10px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    animation-delay: 0.8s;
+    color: #f7f7f7;
+    border: 2px solid green;
+}
+.call-to-action{
+    background-color: #3A3B48;
+    color: aqua;
+}
